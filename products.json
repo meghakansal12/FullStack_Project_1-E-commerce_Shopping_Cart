@@ -4,7 +4,7 @@
       "sys": { "id": "1" },
       "fields": {
         "title": "hrnt",
-        "price": Rs.449,
+        "price": 449,
         "image": { "fields": { "file": { "url": "./images/Product 1.jpg" } } }
       }
     },
@@ -12,7 +12,7 @@
       "sys": { "id": "2" },
       "fields": {
         "title": "LEVERET",
-        "price": Rs.399,
+        "price": 399,
         "image": { "fields": { "file": { "url": "./images/Product 2.jpg" } } }
       }
     },
@@ -20,7 +20,7 @@
       "sys": { "id": "3" },
       "fields": {
         "title": "PIPER LONDON",
-        "price": Rs.419,
+        "price": 419,
         "image": { "fields": { "file": { "url": "./images/Product 3.jpg" } } }
       }
     },
@@ -28,7 +28,7 @@
       "sys": { "id": "4" },
       "fields": {
         "title": "SKMEI",
-        "price": Rs.459,
+        "price": 459,
         "image": { "fields": { "file": { "url": "./images/Product 4.jpg" } } }
       }
     },
@@ -36,7 +36,7 @@
       "sys": { "id": "5" },
       "fields": {
         "title": "SEVEN",
-        "price": Rs.729,
+        "price": 729,
         "image": { "fields": { "file": { "url": "./images/Product 5.jpg" } } }
       }
     },
@@ -44,7 +44,7 @@
       "sys": { "id": "6" },
       "fields": {
         "title": "CURREN",
-        "price": Rs.634,
+        "price": 634,
         "image": { "fields": { "file": { "url": "./images/Product 6.jpg" } } }
       }
     },
@@ -52,7 +52,7 @@
       "sys": { "id": "7" },
       "fields": {
         "title": "hrnt",
-        "price": Rs.573,
+        "price": 573,
         "image": { "fields": { "file": { "url": "./images/Product 7.jpg" } } }
       }
     },
@@ -60,15 +60,15 @@
       "sys": { "id": "8" },
       "fields": {
         "title": "SKMEI",
-        "price": Rs.579,
+        "price": 579,
         "image": { "fields": { "file": { "url": "./images/Product 8.jpg" } } }
       }
     },
     {
-      "sys": { "id": "9 },
+      "sys": { "id": "9" },
       "fields": {
         "title": "Generic",
-        "price": Rs.410,
+        "price": 410,
         "image": { "fields": { "file": { "url": "./images/Product 9.jpg" } } }
       }
     },
@@ -76,7 +76,7 @@
       "sys": { "id": "10" },
       "fields": {
         "title": "SWISSTONE",
-        "price": Rs.460,
+        "price": 460,
         "image": { "fields": { "file": { "url": "./images/Product 10.jpg" } } }
       }
     },
@@ -84,7 +84,7 @@
       "sys": { "id": "11" },
       "fields": {
         "title": "DAINTY",
-        "price": Rs.329,
+        "price": 329,
         "image": { "fields": { "file": { "url": "./images/Product 11.jpg" } } }
       }
     },
@@ -92,7 +92,7 @@
       "sys": { "id": "12" },
       "fields": {
         "title": "LIMESTONE",
-        "price": Rs.279,
+        "price": 279,
         "image": { "fields": { "file": { "url": "./images/Product 12.jpg" } } }
       }
     }
