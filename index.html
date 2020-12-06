@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Watch House</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -17,13 +18,30 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <!--side bar-->
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+      <button class="w3-bar-item w3-button w3-large" onclick="w3_close()"><br><br><br><br>Close &times; </button>
+      <br><a href="#" class="w3-bar-item w3-button sizeicon"><i class="fas fa-home"></i>  Home</a>
+      <a href="#" class="w3-bar-item w3-button sizeicon"><i class="fas fa-cog"></i>  Setting</a>
+      <a href="#" class="w3-bar-item w3-button sizeicon"><i class="fas fa-user"></i>  Account</a>
+      <a href="#" class="w3-bar-item w3-button sizeicon"><i class="fas fa-question-circle"></i> Help</a>
+      
+      <a href="#" class="w3-bar-item w3-button sizeicon"><i class="fas fa-sign-out-alt"></i>Log out</a>
+    </div>
+    <!--end side bar-->
     <!-- navbar -->
-    <nav class="navbar">
-      <div class="navbar-center">
-        <span class="nav-icon">
+    <nav class="navbar" id="nav">
+      <div class="navbar-center" id="nav-c">
+        <div id="main">
+
+
+          <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+          
+        </div>
+        <!--<span class="nav-icon">
           <i class="fas fa-bars"></i>
-        </span>
-        <img src="./images/logo.svg" alt="store logo" />
+        </span>-->
+        <img src="./images/logo.svg" alt="store logo" id="image"/>
         <div class="cart-btn">
           <span class="nav-icon">
             <i class="fas fa-cart-plus"></i>
@@ -52,7 +70,7 @@
         <article class="product">
           <div class="img-container">
             <img
-              src="./images/Product-1.jpg"
+              src="./images/product-1.jpg"
               alt="product"
               class="product-img"
             />
@@ -77,9 +95,9 @@
         <div class="cart-content">
           <!-- cart item -->
           <!-- <div class="cart-item">
-            <img src="./images/Product1.jpeg" alt="product" />
+            <img src="./images/product-1.jpeg" alt="product" />
             <div>
-              <h4>Watches</h4>
+              <h4>queen bed</h4>
               <h5>$9.00</h5>
               <span class="remove-item">remove</span>
             </div>
@@ -139,13 +157,13 @@
 				<p class="footer-company-about">
 					<span>About the company</span>
 					We offer Watches in reasonable prices with best quality.</p>
-				<div class="footer-icons">
-					<a href="#"><i class="fa fa-facebook"></i></a>
-					<a href="#"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-instagram"></i></a>
-					<a href="#"><i class="fa fa-linkedin"></i></a>
-					<a href="#"><i class="fa fa-youtube"></i></a>
-				</div>
+			<!--	<div class="footer-icons">
+					<a href="#" style="color: white;"><i class="fa fa-facebook-f"></i></a>
+					<a href="#"><i class="fas fa-twitter"></i></a>
+					<a href="#"><i class="fas fa-instagram"></i></a>
+					<a href="#"><i class="fas fa-linkedin"></i></a>
+					<a href="#"><i class="fas fa-youtube"></i></a>
+				</div>-->
 			</div>
     </footer>
     
@@ -155,5 +173,23 @@
     <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
     <!--  javascript -->
     <script src="app.js"></script>
+
+
+    <script>
+      function w3_open() {
+        document.getElementById("main").style.marginLeft = "25%";
+        document.getElementById("mySidebar").style.width = "25%";
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("openNav").style.display = 'none';
+      }
+      function w3_close() {
+        
+        document.getElementById("nav").style.marginLeft = "0%";
+        document.getElementById("nav-c").style.marginLeft = "0%";
+        document.getElementById("main").style.marginLeft = "0%";
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("openNav").style.display = "inline-block";
+      }
+      </script>
   </body>
 </html>
