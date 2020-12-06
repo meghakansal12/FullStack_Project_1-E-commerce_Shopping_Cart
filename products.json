@@ -5,7 +5,7 @@
       "fields": {
         "title": "hrnt",
         "price": 449,
-        "image": { "fields": { "file": { "url": "./images/Product 1.jpg" } } }
+        "image": { "fields": { "file": { "url": "./images/Product-1.jpg" } } }
       }
     },
     {
@@ -13,7 +13,7 @@
       "fields": {
         "title": "LEVERET",
         "price": 399,
-        "image": { "fields": { "file": { "url": "./images/Product 2.jpg" } } }
+        "image": { "fields": { "file": { "url": "./images/Product-2.jpg" } } }
       }
     },
     {
@@ -21,7 +21,7 @@
       "fields": {
         "title": "PIPER LONDON",
         "price": 419,
-        "image": { "fields": { "file": { "url": "./images/Product 3.jpg" } } }
+        "image": { "fields": { "file": { "url": "./images/Product-3.jpg" } } }
       }
     },
     {
@@ -29,7 +29,7 @@
       "fields": {
         "title": "SKMEI",
         "price": 459,
-        "image": { "fields": { "file": { "url": "./images/Product 4.jpg" } } }
+        "image": { "fields": { "file": { "url": "./images/Product-4.jpg" } } }
       }
     },
     {
@@ -37,7 +37,7 @@
       "fields": {
         "title": "SEVEN",
         "price": 729,
-        "image": { "fields": { "file": { "url": "./images/Product 5.jpg" } } }
+        "image": { "fields": { "file": { "url": "./images/Product-5.jpg" } } }
       }
     },
     {
@@ -45,7 +45,7 @@
       "fields": {
         "title": "CURREN",
         "price": 634,
-        "image": { "fields": { "file": { "url": "./images/Product 6.jpg" } } }
+        "image": { "fields": { "file": { "url": "./images/Product-6.jpg" } } }
       }
     },
     {
@@ -53,7 +53,7 @@
       "fields": {
         "title": "hrnt",
         "price": 573,
-        "image": { "fields": { "file": { "url": "./images/Product 7.jpg" } } }
+        "image": { "fields": { "file": { "url": "./images/Product-7.jpg" } } }
       }
     },
     {
@@ -61,7 +61,7 @@
       "fields": {
         "title": "SKMEI",
         "price": 579,
-        "image": { "fields": { "file": { "url": "./images/Product 8.jpg" } } }
+        "image": { "fields": { "file": { "url": "./images/Product-8.jpg" } } }
       }
     },
     {
@@ -69,7 +69,7 @@
       "fields": {
         "title": "Generic",
         "price": 410,
-        "image": { "fields": { "file": { "url": "./images/Product 9.jpg" } } }
+        "image": { "fields": { "file": { "url": "./images/Product-9.jpg" } } }
       }
     },
     {
@@ -77,7 +77,7 @@
       "fields": {
         "title": "SWISSTONE",
         "price": 460,
-        "image": { "fields": { "file": { "url": "./images/Product 10.jpg" } } }
+        "image": { "fields": { "file": { "url": "./images/Product-10.jpg" } } }
       }
     },
     {
@@ -85,7 +85,7 @@
       "fields": {
         "title": "DAINTY",
         "price": 329,
-        "image": { "fields": { "file": { "url": "./images/Product 11.jpg" } } }
+        "image": { "fields": { "file": { "url": "./images/Product-11.jpg" } } }
       }
     },
     {
@@ -93,7 +93,7 @@
       "fields": {
         "title": "LIMESTONE",
         "price": 279,
-        "image": { "fields": { "file": { "url": "./images/Product 12.jpg" } } }
+        "image": { "fields": { "file": { "url": "./images/Product-12.jpg" } } }
       }
     }
   ]
